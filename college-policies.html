@@ -3,7 +3,7 @@
 <html style="margin: 0; padding: 0; height: 100%">
   <head>
     <title>SU College of Computer Studies</title>
-    <link rel="icon" type="image/x-icon" href="/Assets/Logos/CCS Logo.png" />
+    <link rel="icon" type="image/x-icon" href="./Assets/Logos/CCS Logo.png" />
   </head>
   <body
     style="
@@ -11,7 +11,13 @@
       padding: 0;
       height: 100%;
       color: white;
-      font-family: monospace;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      background-image: url('/Assets/Backgrounds/UCS\ Building.png');
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 100%;
     "
   >
     <style>
@@ -22,114 +28,447 @@
         border: 1px solid blue;
       } */
     </style>
-    <section
-      align="center"
-      style="
-        background-image: url('/Assets/Backgrounds/CC\ Lobby\ Background.png');
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        height: 100%;
-      "
-    >
-      <div
+    <section align="center">
+      <!-- this will be the banner -->
+      <section
         style="
           width: 100%;
-          height: 100px;
-          background-color: rgba(0, 0, 23, 0.64);
+          height: 300px;
+          background-color: rgba(0, 0, 23, 0.8);
         "
       >
-        <img src="/Assets/Banners/Semi Banner CCS.png" />
-      </div>
-      <section>
-        <table width="90%" align="center" cellspacing="10" height="200px">
-          <!-- banner will be here -->
+        <table width="100%;" height="225px">
           <tr>
-            <td colspan="5">
-              <img
-                src="/Assets/Banners/CC Lobby Banner.png"
-                style="width: 100%"
-              />
+            <td>
+              <img src="./Assets/Banners/Semi Banner CCS.png" />
             </td>
           </tr>
-          <!-- navigation buttons will be here -->
+        </table>
+        <table width="100%;">
           <tr>
-            <td
-              width="20%"
-              height="60px"
-              style="
-                background-color: rgba(3, 4, 94, 0.39);
-                border: 1px solid #00b4d8;
-                height: 60px;
-              "
-            >
-              <h3><a href="/index.html" style="color: white"> Homepage </a></h3>
+            <td width="20%">
+              <a href="./index.html" style="color: white">
+                <h3>Homepage</h3>
+              </a>
             </td>
-            <td
-              width="20%"
-              height="60px"
-              style="
-                background-color: rgba(3, 4, 94, 0.39);
-                border: 1px solid #00b4d8;
-                height: 60px;
-              "
-            >
-              <h3>
-                <a href="/faculty-and-staff.html" style="color: white">
-                  Faculty and Staff
-                </a>
-              </h3>
+            <td width="20%">
+              <a href="./faculty-and-staff.html" style="color: white">
+                <h3>Faculty and Staff</h3>
+              </a>
             </td>
-            <td
-              width="20%"
-              height="60px"
-              style="
-                background-color: rgba(3, 4, 94, 0.39);
-                border: 1px solid #00b4d8;
-                height: 60px;
-              "
-            >
-              <h3>
-                <a href="/college-policies.html" style="color: white">
-                  College Policies
-                </a>
-              </h3>
+            <td width="20%">
+              <a href="./college-policies.html" style="color: white">
+                <h3>College Policies</h3>
+              </a>
             </td>
-            <td
-              width="20%"
-              height="60px"
-              style="
-                background-color: rgba(3, 4, 94, 0.39);
-                border: 1px solid #00b4d8;
-                height: 60px;
-              "
-            >
-              <h3>
-                <a href="/contact-us.html" style="color: white"> Contact Us </a>
-              </h3>
+            <td width="20%">
+              <a href="./about.html" style="color: white"> <h3>About</h3> </a>
             </td>
-            <td
-              width="20%"
-              height="60px"
-              style="
-                background-color: rgba(3, 4, 94, 0.39);
-                border: 1px solid #00b4d8;
-                height: 60px;
-              "
-            >
-              <h3><a href="/about.html" style="color: white"> about </a></h3>
+            <td width="20%">
+              <a href="./contact-us.html" style="color: white">
+                <h3>Contact Us</h3>
+              </a>
             </td>
-          </tr>
-          <!-- content will be here -->
-          <tr align="center">
-            <td colspan="5" height="400px;">content for college policies</td>
           </tr>
         </table>
       </section>
-      <section
-        style="width: 100%; height: 100px; background-color: white"
-      ></section>
+      <br />
+      <!-- put content here -->
+      <section>
+        <table width="95%" align="center" cellspacing="5px">
+          <tr>
+            <td width="50%">
+              <table width="100%" align="center" style="background-color: #F1F6F9;">
+                <tr>
+                  <td>
+                    <table width="95%" align="center">
+                      <tr>
+                        <td style="color: #14274E;" align="left">
+                          <h1>I. Requirements for Admission</h1>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table width="95%" align="center" style="background-color: #14274E; text-align: left; color: #F1F6F9">
+                      <tr>
+                        <td>
+                          <h1>
+                            For Senior High School Graduates
+                          </h1>
+                          <ul>
+                            <li>
+                              The College is open to all SHS graduates regardless of their tracks. Non-STEAM/STEAM and STEM/STEAM SHS graduates, with any Math or Science subject below 85% average grade, are required to take the addiitional non-credit course Problem Solving and Logic Formulation (PSLF 00) prior to Introduction to Computing (CCS11) and Fundamentals of Programming (CCS2) professional course.
+                            </li>
+                            <li>
+                              Non-STEM/STEAM graduates who will enroll in BSCS will have to tae additional non-credit course as prerequisites to some professional courses (MATH 00).
+                            </li>
+                            <li>
+                              Applicants will be accepted as regular first year students provided that the General Average is at least 80%(with no grades below 80% in any subject) and has taen the augmentation course PSLF 00 if there is a need to.
+                            </li>
+                            <li>
+                              Those applicants wth General Average of at least 80% but have a grade below 80% in any subject may be accepted as On Probation (OP) student. Policy for OP students applies.
+                            </li>
+                          </ul>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>                
+                <tr>
+                  <td>
+                    &nbsp;
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table width="95%" align="center" style="background-color: #14274E; text-align: left; color: #F1F6F9">
+                      <tr>
+                        <td>
+                          <h1>
+                            For Shiftees
+                          </h1>
+                          <ul>
+                            <li>
+                              Those shifting from other Schools/Colleges of the University may be allowed to shift to any of the degrees offered by the College provided that the student has a Cumulative Quality Point Average (CQPA) of at least 2.0. Those who fall below the 2.0 cut-off will be accepted as On Probation students.
+                            </li>
+                            <li>
+                              Those without programing courses in their previous School/Colleges of the University will be required to take the bridging course Problem Solving and Logic Formulation (PSLF 00)
+                            </li>
+                          </ul>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>  
+                </tr>
+                <tr>
+                  <td>
+                    &nbsp;
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table width="95%" align="center" style="background-color: #14274E; text-align: left; color: #F1F6F9">
+                      <tr>
+                        <td>
+                          <h1>
+                            For Transferees
+                          </h1>
+                          <blockquote>
+                            Applicants from other schools and universities may be admitted to the College provided that the student:
+                          </blockqu>
+                          <ol type="1">
+                            <li>
+                              has a QPA of not less than 2.0 or its equivalent. Those who fall below the 2.0 cut-off will be accepted with an On Probation status.
+                            </li>
+                            <li>
+                              submits a Transcript of Records (TOR) and complete description of computer courses taken (course outline and syllabus) in o ther schools for proper evaluation and validation.
+                            </li>
+                            <li>
+                              repeats all major courses if the student comes from a non-COE/COD in ITE, non-PAASCU, non-ACSCU, or ton-PICAB accredited school/university.
+                            </li>
+                            <li>
+                              takes the bridging course Problem Solving and Logic Formulation (PSLF 00) if the previous enrolled degree from other schools and universities doesn't have programming courses.
+                            </li>
+                          </ol>
+                          <h1>
+                            Note:
+                          </h1>
+                          <ul>
+                            <li>
+                              Validation exams may be given to transferees/shiftees, if deemed necessary by the Department Chair.
+                            </li>
+                            <li>
+                              Only first year and second year professional courses and common professional courses found in any CCS curriculum will be considered for advance credits.
+                            </li>
+                            <li>
+                              Students coming from schools or universities outside the Philippines have to be evaluated by the respective Department Chairpersons for advanced credits.
+                            </li>
+                          </ul>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    &nbsp;
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table width="95%" align="center" style="background-color: #14274E; text-align: left; color: #F1F6F9">
+                      <tr>
+                        <td>
+                          <h1>
+                            For Second Coursers
+                          </h1>
+                          <blockquote>
+                            Non-K to 12 second coursers will take all General courses.
+                          </blockquote>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    &nbsp;
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table width="95%" align="center" style="background-color: #14274E; text-align: left; color: #F1F6F9">
+                      <tr>
+                        <td>
+                          <h1>
+                            For Foreign Students
+                          </h1>
+                          <blockquote>
+                            A committee composed of the Department Chairpersons and/or faculty will decide on the admission of foreign students. A signature indicating their approval will be required by the University Office of Registrar and Admissions prior to enrollment.
+                          </blockquote>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    &nbsp;
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    &nbsp;
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    &nbsp;
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <td width="50%">
+              <table width="100%" align="center" style="background-color: #F1F6F9; color:#14274E;">
+                <tr>
+                  <td>
+                    <table width="95%" align="center" style="text-align: left;">
+                      <tr>
+                        <td>
+                          <h1>
+                            II. Requirements for Retention
+                          </h1>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table width="95%" align="center" style="background-color: #14274E; text-align: left; color: #F1F6F9">
+                      <tr>
+                        <td>
+                          <ol type="a">
+                            <li>
+                              Minimum Grade Requirement
+                              <blockquote>
+                                The minimum grade requirement for a student t obe able to proceed to the next professional course and/or semester for BSCS, BSIT and BSIS is 1.0 while for BLIS is 2.0.
+                              </blockquote>
+                            </li>
+                            <li>
+                              Cumulative Quality Point Average
+                              <blockquote>
+                                The student needs to maintain a CQPA of 2.0 to remain in the program and to graduate and earn the degree. CQPA is to be calculated every semester.
+                              </blockquote>
+                            </li>
+                          </ol>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    &nbsp;
+                  </td>
+                </tr>
+              </table>
+              <br />
+              <table width="100%" align="center" style="background-color: #F1F6F9; color:#14274E;">
+                <tr>
+                  <td>
+                    <table width="95%" align="center" style="text-align: left;">
+                      <tr>
+                        <td>
+                          <h1>
+                            III. Other Related Matters
+                          </h1>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table width="95%" align="center" style="background-color: #14274E; text-align: left; color: #F1F6F9">
+                      <tr>
+                        <td>
+                          <ol type="a">
+                            <li>
+                              On Probation
+                              <blockquote>
+                                If the student's CQPA falls below 2.0, he/she will be placed in the "On Probation" status watch list. The student can only be in OP status for two (2) consecutive semesters. After the two (2) consecutive semesters, the student will be advised to shift to another degree.
+                              </blockquote>
+                            </li>
+                            <li>
+                              Remedial Courses
+                              <blockquote>
+                                If the student's CQPA falls below 2.0, the student is required to enroll remedial courses to improve his/her CQPA. Upon evaluation and recommendation from the Department Chairperson and approval of the Dean, the student is required to tae in the current semester remedial course/s to increase the CQPA. The total number of units must not to exceed the allowable maximum load in that semester. Remedial courses can be new courses, or the course/s with the lowest grade.
+                              </blockquote>
+                            </li>
+                            <li>
+                              Removal exams
+                              <blockquote>
+                                Faculty will not give removal exams.
+                              </blockquote>
+                            </li>
+                          </ol>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    &nbsp;
+                  </td>
+                </tr>
+              </table>
+              <br />
+              <table width="100%" align="center" style="background-color: #F1F6F9; color:#14274E;">
+                <tr>
+                  <td>
+                    <table width="95%" align="center" style="text-align: left;">
+                      <tr>
+                        <td>
+                          <h1>
+                            IV. Requirements for shifting within CCS
+                          </h1>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table width="95%" align="center" style="background-color: #14274E; text-align: left; color: #F1F6F9">
+                      <tr>
+                        <td>
+                          <blockquote>
+                            Automatic shifting is not allowed. A CCS student who wants to shift to another degree offered by the College must get an approval from the Department Chairperson of the program where she/he wants to shift.
+                          </blockquote>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    &nbsp;
+                  </td>
+                </tr>
+              </table>
+              <br />
+              <table width="100%" align="center" style="background-color: #F1F6F9; color:#14274E;">
+                <tr>
+                  <td>
+                    <table width="95%" align="center" style="text-align: left;">
+                      <tr>
+                        <td>
+                          <h1>
+                            V. Policy on Cross-Enrollment
+                          </h1>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table width="95%" align="center" style="background-color: #14274E; text-align: left; color: #F1F6F9">
+                      <tr>
+                        <td>
+                          <ul>
+                            <li>
+                              Any student from other units of the University who cross-enrolls in any of the professional or elective course of the College must satisfy all the prerequisite requirements of the course;
+                            </li>
+                            <li>
+                              CCS students are not allowed to take professional or elective courses outside the College/University.
+                            </li>
+                          </ul>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    &nbsp;
+                  </td>
+                </tr>
+              </table>
+              <br />
+              <table width="100%" align="center" style="background-color: #F1F6F9; color:#14274E;">
+                <tr>
+                  <td>
+                    <table width="95%" align="center" style="text-align: left;">
+                      <tr>
+                        <td>
+                          <h1>
+                            VI. Policy on Crediting Non-Professional Courses
+                          </h1>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table width="95%" align="center" style="background-color: #14274E; text-align: left; color: #F1F6F9">
+                      <tr>
+                        <td>
+                          <ul>
+                            <li>
+                              Only the Dean and any of the Department Chairpersons can sign the Advanced Credit Form.
+                            </li>
+                            <li>
+                              Students coming from non-accredited schools/universities (COE/COD in ITE, PAASCU, ACSCU, PICAB) need to retake the computer course.
+                            </li>
+                            <li>
+                              Students coming form COE/COD in ITE, PAASCU, ACSCU, or PICAB accredited schools/universities shall present a copy of their transcript of records (TOR) and a description of the course (or courses) taken at their former schools.
+                            </li>
+                          </ul>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    &nbsp;
+                  </td>
+                </tr>
+              </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </section>
     </section>
   </body>
 </html>
