@@ -1,69 +1,63 @@
 <!DOCTYPE html>
-
-<html style="margin: 0; padding: 0; height: 100%">
+<!-- TODO: restructure with the styles in the main.css file -->
+<html>
   <head>
     <title>SU College of Computer Studies</title>
     <link rel="icon" type="image/x-icon" href="./Assets/Logos/CCS Logo.png" />
+    <link rel="stylesheet" href="./CSS/main.css" media="screen" />
   </head>
-  <body
-    style="
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      color: white;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      background-image: url('./Assets/Backgrounds/CC\ Entrance\ Background.png');
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        height: 100%;
-    "
-  >
+  <body>
     <!-- First Viewport -->
-    <section align="center">
+    <section class="page-layout">
       <!-- this will be the banner -->
-      <section
-        style="
-          width: 100%;
-          height: 300px;
-          background-color: rgba(0, 0, 23, 0.8);
-        "
-      >
-        <table width="100%;" height="225px">
-          <tr>
-            <td>
-              <img src="./Assets/Banners/Semi Banner CCS.png" />
-            </td>
-          </tr>
-        </table>
-        <table width="100%;">
-          <tr>
-            <td width="20%">
-              <a href="./index.html" style="color: white;"> <h3> Homepage </h3> </a>
-            </td>
-            <td width="20%">
-              <a href="./faculty-and-staff.html" style="color: white;"> <h3> Faculty and Staff </h3> </a>
-            </td>
-            <td width="20%">
-              <a href="./college-policies.html" style="color: white;"> <h3> College Policies </h3> </a>
-            </td>
-            <td width="20%">
-              <a href="./about.html" style="color: white;"> <h3> About </h3> </a>
-            </td>
-            <td width="20%">
-              <a href="./contact-us.html" style="color: white;"> <h3> Contact Us </h3> </a>
-            </td>
-          </tr>
-        </table>
+      <section id="banner">
+        <div class="logo-wrapper">
+          <img class="logo-img" src="./Assets/Banners/Semi Banner CCS.png" />
+        </div>
+
+        <ul class="nav-bar">
+          <li>
+            <a href="./index.html" > 
+              <div class="button">
+                <h3> Homepage </h3> 
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="./faculty-and-staff.html" >
+              <div class="button">
+                <h3> Faculty and Staff </h3> 
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="./college-policies.html" > 
+              <div class="button">
+                <h3> College Policies </h3>
+              </div> 
+            </a>
+          </li>
+          <li>
+            <a href="./about.html">
+              <div class="button">
+                <h3> About </h3>
+              </div> 
+            </a>
+          </li>
+          <li>
+            <a href="./contact-us.html">
+              <div class="button">
+                <h3> Contact Us </h3>
+              </div> 
+            </a>
+          </li>
+        </ul>
+
       </section>
-      <!-- Table Layout -->
-      <section>
+      <section class="board-wrapper">
         <br />
-        <table width="90%" align="center" cellspacing="10" height="200px">
-          <!-- content will be here -->
-          <tr>
-            <td colspan="5" height="275px;" align="center">
+        <!-- content will be here -->
+        <div class="board">
               <!-- top animation -->
               <div>
                 <marquee
@@ -71,8 +65,8 @@
                   scrollamount="1"
                   direction="up"
                   height="50px"
+                  class="top-news"
                 >
-                  <div align="center">
                     <p>
                       📣<b>Time to brew up some fun.</b>☕✨<br />
                       The long wait is over mga ka-Trojans, because the CCS
@@ -88,31 +82,31 @@
                   <div>
                     <img
                       src="./Assets/AcquaintanceParty/1.jpg"
-                      style="width: 200px; height: 200px"
+                      class="img-showcase"
                     />
                     <img
                       src="./Assets/AcquaintanceParty/2.jpg"
-                      style="width: 200px; height: 200px"
+                      class="img-showcase"
                     />
                     <img
                       src="./Assets/AcquaintanceParty/3.jpg"
-                      style="width: 200px; height: 200px"
+                      class="img-showcase"
                     />
                     <img
                       src="./Assets/AcquaintanceParty/4.jpg"
-                      style="width: 200px; height: 200px"
+                      class="img-showcase"
                     />
                     <img
                       src="./Assets/AcquaintanceParty/5.jpg"
-                      style="width: 200px; height: 200px"
+                      class="img-showcase"
                     />
                     <img
                       src="./Assets/AcquaintanceParty/6.jpg"
-                      style="width: 200px; height: 200px"
+                      class="img-showcase"
                     />
                     <img
                       src="./Assets/AcquaintanceParty/7.jpg"
-                      style="width: 200px; height: 200px"
+                      class="img-showcase"
                     />
                   </div>
                 </marquee>
@@ -123,29 +117,21 @@
                   <hr width="90%" />
                 </marquee>
               </div>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              
-            </td>
-          </tr>
-        </table>
+        </div>
+        <br />
+        <br />
       </section>
-      <section>
-        <table width="100%" align="center" cellspacing="10" style="background-color: #F1F6F9; color: #120840">
-          <tr>
-            <td>
-              <table width="80%" align="center" cellspacing="10" cellpadding="10">
-                <tr style="text-align: left;">
-                  <td>
+
+      <section class="details-wrapper">
+              <div class="details-container">
+                  <div class="top-details">
                     <h3>Undergraduate Courses Offered</h3>
                     <blockquote>
                       <ul>
                         <li>
                           <h4>Bachelor of Library and Information Science</h4>
                           <blockquote>
-                            <ul style="list-style-type: circle;">
+                            <ul class="details">
                               <li>
                                 The BLIS program is designed to prepare students for career opportunities in professional librarianship, research, training, publishing and book trade, public relations, consultancy, and information-related business.
                               </li>
@@ -158,7 +144,7 @@
                         <li>
                           <h4>Bachelor of Science in Computer Science</h4>
                           <blockquote>
-                            <ul style="list-style-type: circle;">
+                            <ul class="details">
                               <li>
                                 Bachelor of Science in Computer Science (BSCS) is a four-year program that includes the study of computing concepts and theories, algorithmic foundations, and new developments in computing.
                               </li>
@@ -171,7 +157,7 @@
                         <li>
                           <h4>Bachelor of Science in Information Systems</h4>
                           <blockquote>
-                            <ul style="list-style-type: circle;">
+                            <ul class="details">
                               <li>
                                 The Bachelor of Science in Information Systems (BSIS) program is a four-year degree program which focuses on the design and implementation of computer-based information systems and other ICT solutions to address the demands in existing business processes.
                               </li>
@@ -184,7 +170,7 @@
                         <li>
                           <h4>Bachelor of Science in Information Technology</h4>
                           <blockquote>
-                            <ul style="list-style-type: circle;">
+                            <ul class="details">
                               <li>
                                 The Bachelor of Science in Information Technology (BSIT) is a four-year program that prepares students to be IT professionals well-versed on IT applications, including web, database, programming, and networking technologies.
                               </li>
@@ -196,10 +182,8 @@
                         </li>
                       </ul>
                     </blockquote>
-                  </td>
-                </tr>
-                <tr style="text-align: left;">
-                  <td>
+                  </div>
+                  <div class="bottom-details">
                     <h3> Graduate Courses Offered</h3>
                     <blockquote>
                       <ul>
@@ -207,7 +191,7 @@
                           <h4>Master of Science in Information Systems</h4>
                         </li>
                         <blockquote>
-                          <ul style="list-style-type: circle;">
+                          <ul class="details">
                             <li>
                               The Master of Information Systems (MIS) program is designed to provide professionals in the Information Technology industry with advanced training in information systems.
                             </li>
@@ -218,16 +202,11 @@
                         </blockquote>
                       </ul>
                     </blockquote>
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-        </table>
+                  </div>
+              </div>
       </section>
-      <div>
+      <div class="copyright">
         <h6> Developed by Joshua Briones &copy; 2023</h6>
-        <br />
       </div>
     </section>
   </body>
