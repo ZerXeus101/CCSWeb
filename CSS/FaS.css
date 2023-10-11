@@ -1,6 +1,6 @@
 /* *Basically this is for visualizing later */
 
-/* table {
+table {
     border: 1px solid red;
 }
 
@@ -14,7 +14,7 @@ td {
 
 div {
     border: 1px solid lime;
-} */
+}
 
 
 /* *INSERT ACTUAL CODE HERE */
@@ -68,46 +68,79 @@ a {
     padding-right: 20px;
 }
 
-/* *Styles for the board */
-
-.board-wrapper {
-    width: 100%;
-}
-.board {
-    width: 90%;
-    margin-left: 4.5%;
-    height: 275px;
-}
-
-.top-news {
+.content-wrapper {
+    width: 95%;
+    margin-left: 2%;
     text-align: center;
 }
 
-.img-showcase {
+.inline {
+    float: left;
+}
+
+.inline-right{
+    float: right;
+}
+
+.margin20 {
+    margin: 20px;
+}
+ 
+.details-wrapper {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.detail-image {
+    width: 200px; 
+    height: 200px;
+}
+
+img.teacher {
     width: 200px;
     height: 200px;
 }
 
-.details-wrapper {
-    background-color: #F1F6F9; 
-    color: #120840;
-    width: 100%;
+h1.a {
+    font-size: 30px;
 }
 
-.details-container {
-    width: 80%;
-    margin-left: 10%;
+h1.b {
+    font-size: 28px;
 }
 
-.details {
-    list-style-type: circle;
+h1.c {
+    font-size: 25px;
 }
 
-.top-details, .bottom-details {
-    padding: 10px;
+h2.a {
+    font-size: 25px; color: #AFD3E2;
 }
 
-.copyright {
-    text-align: center;
-    padding-bottom: 3px;
+h2.b {
+    font-size: 20px; color: #AFD3E2;
+}
+
+.detail-container {
+    background-color: #120840; 
+    width: 400px;
+    height: 200px;
+    line-height: 50px;
+}
+
+.card-container {
+    background-color: white;
+    height: 245px;
+    width: 48%;
+}
+
+.row1 {
+    border: 1px solid orange;
+    height: 245px;
+}
+
+.row2 {
+    border: 1px solid red;
+    margin-top: 20px;
+    height: 245px;
 }
