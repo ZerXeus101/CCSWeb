@@ -1,21 +1,3 @@
-/* *Basically this is for visualizing later */
-
-table {
-    border: 1px solid red;
-}
-
-tr {
-    border: 1px solid blue;
-}
-
-td {
-    border: 1px solid yellow;
-}
-
-div {
-    border: 1px solid lime;
-}
-
 
 /* *INSERT ACTUAL CODE HERE */
 html, body {
@@ -52,13 +34,14 @@ a {
 .nav-bar {
     list-style-type: none;
     text-align: center;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 .nav-bar li{
     float: left;
     padding-left: 5%;
     padding-right: 60px;
+    margin: 0 auto;
     margin-top: 5px;
 
 }
@@ -70,7 +53,7 @@ a {
 
 .content-wrapper {
     width: 95%;
-    margin-left: 2%;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -113,12 +96,21 @@ h1.c {
     font-size: 25px;
 }
 
+h1.d {
+    font-size: 18px;
+}
+
 h2.a {
     font-size: 25px; color: #AFD3E2;
 }
 
 h2.b {
     font-size: 20px; color: #AFD3E2;
+}
+
+h2.c {
+    font-size: 15px; color: #AFD3E2;
+    line-height: 18px;
 }
 
 .detail-container {
@@ -135,12 +127,48 @@ h2.b {
 }
 
 .row1 {
-    border: 1px solid orange;
     height: 245px;
 }
 
 .row2 {
-    border: 1px solid red;
     margin-top: 20px;
     height: 245px;
+}
+
+.row3 {
+    margin-top: 20px;
+    height: 245px;
+}
+
+.row4 {
+    margin-top: 20px;
+    height: 245px;
+}
+
+.row5 {
+    margin-top: 20px;
+    height: 245px;
+}
+
+.row6 {
+    margin-top: 20px;
+    height: 245px;
+}
+
+.row7 {
+    margin-top: 20px;
+    height: 245px;
+}
+
+
+
+.image-placeholder {
+    background-color: #6499E9; 
+    width: 200px; 
+    height: 200px;
+}
+
+.vertical-text {
+    text-align: center;
+    line-height: 200px;
 }

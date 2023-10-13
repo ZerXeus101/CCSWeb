@@ -51,46 +51,35 @@ a {
     padding-right: 20px;
 }
 
-/* *Styles for the board */
+/* *content here */
 
-.board-wrapper {
-    width: 100%;
+.center {
+    margin: 0 auto;
 }
-.board {
+
+.CP-content-wrapper {
     width: 90%;
-    margin-left: 4.5%;
-    height: 275px;
 }
 
-.top-news {
-    text-align: center;
-}
-
-.img-showcase {
-    width: 200px;
-    height: 200px;
-}
-
-.details-wrapper {
-    background-color: #F1F6F9; 
-    color: #120840;
+.block-container {
+    background-color: #F1F6F9;
     width: 100%;
 }
 
-.details-container {
-    width: 80%;
-    margin-left: 10%;
+.block-header {
+    color: #14274E;
+    text-align: left;
+    width: 95%;
+    margin: 0 auto;
 }
 
-.details {
-    list-style-type: circle;
+.block-content-container {
+    width: 95%;
+    background-color: #14274E; 
+    text-align: left; color: #F1F6F9;
+    margin: 0 auto;
 }
 
-.top-details, .bottom-details {
-    padding: 10px;
-}
-
-.copyright {
-    text-align: center;
-    padding-bottom: 3px;
+.spacing {
+    border: 1px solid #F1F6F9;
 }
