@@ -1,24 +1,4 @@
 
-table {
-    border: 1px solid red;
-}
-
-tr {
-    border: 1px solid blue;
-}
-
-td {
-    border: 1px solid orange;
-}
-
-div {
-    border: 1px solid lime;
-}
-
-span {
-    border: 1px solid pink;
-}
-
 /* *INSERT ACTUAL CODE HERE */
 html, body {
     margin: 0;
@@ -71,6 +51,8 @@ a {
     padding-right: 20px;
 }
 
+
+/* *INSERT CONTENT CSS */
 .block-container {
     width: 90%;
     background-color: #F8F0E5; 
@@ -135,11 +117,129 @@ a {
     width: 50%;
     height: 200px;
     margin: 50px auto;
+    padding-left: 20px;
 }
 
 
 .apple {
     background-image: url('/Assets/Backgrounds/Apple\ Lab.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.float {
+    float: left;
+}
+
+.center-this {
+    margin-left: 15%;
+}
+
+.left-container-white {
+    float: left;
+    background-color: white; 
+    width: 50%;
+    height: 400px;
+}
+
+.right-container-transparent {
+    display: inline-block;
+    width: 50%;
+    height: 400px;
+}
+
+.right-container-white {
+    display: inline-block;
+    background-color: white; 
+    width: 50%;
+    height: 400px;
+}
+
+.left-container-transparent {
+    float: left;
+    width: 50%;
+    height: 400px;
+}
+
+.left-container-text {
+    margin-top: 15%;
+    text-align: center;
+}
+
+.right-container-text {
+    margin-top: 15%;
+    text-align: center;
+}
+
+h1.room-header {
+    font-size: 50px;
+}
+
+p.room-preview {
+    font-size: 25px;
+}
+
+h1.room-text-header-left-white {
+    font-size: 30px; color: #03045e
+}
+
+p.room-text-left-white {
+    font-size: 20px; color: #03045e
+}
+
+h1.room-text-header-right-transparent {
+    font-size: 30px;
+}
+
+p.room-text-right-transparent {
+    font-size: 20px;
+}
+
+h1.room-text-header-right-white {
+    font-size: 30px; color: #03045e
+}
+
+p.room-text-right-white {
+    font-size: 20px; color: #03045e
+}
+
+h1.room-text-header-left-transparent {
+    font-size: 30px;
+}
+
+p.room-text-left-transparent {
+    font-size: 20px;
+}
+
+
+.CCLobby {
+    background-image: url('/Assets/Backgrounds/CC\ Lobby.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.CCLab {
+    background-image: url('/Assets/Backgrounds/Computer\ Laboratories.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ATA {
+    background-image: url('./Assets/Backgrounds/ATA\ Hall.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.UCS {
+    background-image: url('./Assets/Backgrounds/UCS\ Building.png');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
