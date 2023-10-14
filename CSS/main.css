@@ -51,7 +51,7 @@ a {
     padding-right: 20px;
 }
 
-/* *Styles for the board */
+/* *HOMEPAGE CSS */
 
 .board-wrapper {
     width: 100%;
@@ -71,7 +71,7 @@ a {
     height: 200px;
 }
 
-.details-wrapper {
+.main-details-wrapper {
     background-color: #F1F6F9; 
     color: #120840;
     width: 100%;
@@ -93,4 +93,405 @@ a {
 .copyright {
     text-align: center;
     padding-bottom: 3px;
+}
+
+/* *Fuaculty and staff CSS */
+
+.content-wrapper {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.inline {
+    float: left;
+}
+
+.inline-right{
+    float: right;
+}
+
+.margin20 {
+    margin: 20px;
+}
+ 
+.details-wrapper {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.detail-image {
+    width: 200px; 
+    height: 200px;
+}
+
+img.teacher {
+    width: 200px;
+    height: 200px;
+}
+
+h1.a {
+    font-size: 30px;
+}
+
+h1.b {
+    font-size: 28px;
+}
+
+h1.c {
+    font-size: 25px;
+}
+
+h1.d {
+    font-size: 18px;
+}
+
+h2.a {
+    font-size: 25px; color: #AFD3E2;
+}
+
+h2.b {
+    font-size: 20px; color: #AFD3E2;
+}
+
+h2.c {
+    font-size: 15px; color: #AFD3E2;
+    line-height: 18px;
+}
+
+.detail-container {
+    background-color: #120840; 
+    width: 65%;
+    height: 200px;
+    line-height: 50px;
+}
+
+.card-container {
+    background-color: white;
+    height: 245px;
+    width: 48%;
+}
+
+.row1 {
+    height: 245px;
+}
+
+.row2 {
+    margin-top: 20px;
+    height: 245px;
+}
+
+.row3 {
+    margin-top: 20px;
+    height: 245px;
+}
+
+.row4 {
+    margin-top: 20px;
+    height: 245px;
+}
+
+.row5 {
+    margin-top: 20px;
+    height: 245px;
+}
+
+.row6 {
+    margin-top: 20px;
+    height: 245px;
+}
+
+.row7 {
+    margin-top: 20px;
+    height: 245px;
+}
+
+
+
+.image-placeholder {
+    background-color: #6499E9; 
+    width: 200px; 
+    height: 200px;
+}
+
+.vertical-text {
+    text-align: center;
+    line-height: 200px;
+}
+
+/* *College Policies CSS */
+
+.center {
+    margin: 0 auto;
+}
+
+.CP-content-wrapper {
+    width: 90%;
+}
+
+.block-container {
+    background-color: #F1F6F9;
+    width: 100%;
+}
+
+.block-header {
+    color: #14274E;
+    text-align: left;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.block-content-container {
+    width: 95%;
+    background-color: #14274E; 
+    text-align: left; color: #F1F6F9;
+    margin: 0 auto;
+}
+
+.spacing {
+    border: 1px solid #F1F6F9;
+}
+
+/* *About CSS */
+
+/* *INSERT CONTENT CSS */
+.block-container {
+    width: 90%;
+    background-color: #F8F0E5; 
+    color: #0F2C59; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.history-content {
+    width: 95%;
+    text-align: left;
+}
+
+.tri-column {
+    width: 95%;
+}
+
+.column-content {
+    display: inline-block;
+    width: 400px;
+    height: 425px;
+    background-color: #F8F0E5; 
+    color: #0F2C59; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    text-align: left;
+    padding: 10px;
+}
+
+.column-header {
+    text-align: center;
+}
+
+.section-intro {
+    width: 100%; 
+    height: 400px; 
+    background-color: white; 
+    color: black;
+}
+
+.room-container {
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.room-image-container {
+    float: left;
+    width: 500px;
+    height: 225px;
+    margin: 50px auto;
+}
+
+.room-image {
+    width: 500px;
+}
+.room-detail {
+    float: left;
+    width: 50%;
+    height: 200px;
+    margin: 50px auto;
+    padding-left: 20px;
+}
+
+
+.apple {
+    background-image: url('/Assets/Backgrounds/Apple\ Lab.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.float {
+    float: left;
+}
+
+.center-this {
+    margin-left: 15%;
+}
+
+.left-container-white {
+    float: left;
+    background-color: white; 
+    width: 50%;
+    height: 400px;
+}
+
+.right-container-transparent {
+    display: inline-block;
+    width: 50%;
+    height: 400px;
+}
+
+.right-container-white {
+    display: inline-block;
+    background-color: white; 
+    width: 50%;
+    height: 400px;
+}
+
+.left-container-transparent {
+    float: left;
+    width: 50%;
+    height: 400px;
+}
+
+.left-container-text {
+    margin-top: 15%;
+    text-align: center;
+}
+
+.right-container-text {
+    margin-top: 15%;
+    text-align: center;
+}
+
+h1.room-header {
+    font-size: 50px;
+}
+
+p.room-preview {
+    font-size: 25px;
+}
+
+h1.room-text-header-left-white {
+    font-size: 30px; color: #03045e
+}
+
+p.room-text-left-white {
+    font-size: 20px; color: #03045e
+}
+
+h1.room-text-header-right-transparent {
+    font-size: 30px;
+}
+
+p.room-text-right-transparent {
+    font-size: 20px;
+}
+
+h1.room-text-header-right-white {
+    font-size: 30px; color: #03045e
+}
+
+p.room-text-right-white {
+    font-size: 20px; color: #03045e
+}
+
+h1.room-text-header-left-transparent {
+    font-size: 30px;
+}
+
+p.room-text-left-transparent {
+    font-size: 20px;
+}
+
+
+.CCLobby {
+    background-image: url('/Assets/Backgrounds/CC\ Lobby.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.CCLab {
+    background-image: url('/Assets/Backgrounds/Computer\ Laboratories.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ATA {
+    background-image: url('/Assets/Backgrounds/ATA\ Hall.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.UCS {
+    background-image: url('/Assets/Backgrounds/UCS\ Building.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* *Contact Us CSS */
+
+.outer-contact-box-container {
+    background-color: #9BA4B4; 
+    text-align: left;
+    width: 50%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.inner-contact-box-container {
+    background-color: #394867; 
+    color: #F1F6F9;
+    padding: 10px;
+}
+
+.image-container {
+    float: left;
+}
+
+img.contact-icon {
+    width: 100px;
+}
+
+.image-detail {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.row-container {
+    width: 100%;
+}
+
+.row-container-middle {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.row-container-bottom {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.email {
+    color:#F1F6F9;
 }
