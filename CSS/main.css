@@ -16,6 +16,7 @@ html, body {
 
 a {
     color: white;
+    text-decoration: none;
 }
 
 #banner{
@@ -35,23 +36,69 @@ a {
     list-style-type: none;
     text-align: center;
     margin: 0 auto;
-    padding: 0;
+    width: 70%;
 }
+
 .nav-bar li{
     float: left;
     padding-left: 5%;
     padding-right: 60px;
     margin: 0 auto;
-    margin-top: 5px;
-
 }
 
-.button {
-    padding-left: 20px;
-    padding-right: 20px;
+.nav-bar ul {
+    list-style-type: none;
+}
+
+.nav-button {
+    margin: 0 auto;
 }
 
 /* *HOMEPAGE CSS */
+
+.button {
+  background-color: #FFFFFF;
+  border: 1px solid #120840;
+  border-radius: 8px;
+  color: #120840;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0;
+  padding: 13px 23px;
+  text-align: center;
+  text-decoration: none;
+  width: auto;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn1:hover {
+    background-color: #120840;
+    color: white;
+}
+
+.btn2:hover {
+    background-color: #C63D2F   ;
+    color: white;
+}
+
+.btn3:hover {
+    background-color: #F4E869;
+    color: white;
+}
+
+.btn4:hover:hover {
+    background-color: #434242;
+    color: white;
+}
+
+.btn5:hover {
+    background-color: rgb(255, 54, 88);
+    color: white;
+}
 
 .board-wrapper {
     width: 100%;
@@ -69,6 +116,30 @@ a {
 .img-showcase {
     width: 200px;
     height: 200px;
+}
+
+.theme-nav {
+    background-color: #F1F6F9; 
+    color: #120840;
+    width: 100%;
+    height: 120px;
+}
+
+.theme-container {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 1px;
+}
+
+.theme-label {
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.buttons-container {
+    width: fit-content;
+    margin: 0 auto;
 }
 
 .main-details-wrapper {
@@ -232,6 +303,7 @@ h2.c {
 .block-container {
     background-color: #F1F6F9;
     width: 100%;
+    margin: 0 auto; 
 }
 
 .block-header {
@@ -495,3 +567,10 @@ img.contact-icon {
 .email {
     color:#F1F6F9;
 }
+
+/* TODO:  Finish theme layouts */
+
+/* !Autumn: https://colorhunt.co/palette/ffbb5cff9b50e25e3ec63d2f */
+/* !Summer: https://colorhunt.co/palette/faf2d3f4e8693085c35cd2e6 */
+/* !Achromatic: just make random shit colors */
+/* !Autumn: https://colorhunt.co/palette/ffbb5cff9b50e25e3ec63d2f */
