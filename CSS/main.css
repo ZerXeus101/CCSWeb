@@ -1,6 +1,6 @@
 
 /* *INSERT ACTUAL CODE HERE */
-html, body {
+body {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -12,6 +12,7 @@ html, body {
     background-position: center;
     background-size: cover;
     height: 100%;
+    color: #120840;
 }
 
 a {
@@ -60,7 +61,6 @@ a {
   background-color: #FFFFFF;
   border: 1px solid #120840;
   border-radius: 8px;
-  color: #120840;
   cursor: pointer;
   display: inline-block;
   font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
@@ -107,6 +107,7 @@ a {
     width: 90%;
     margin-left: 4.5%;
     height: 275px;
+    color: white;
 }
 
 .top-news {
@@ -120,7 +121,6 @@ a {
 
 .theme-nav {
     background-color: #F1F6F9; 
-    color: #120840;
     width: 100%;
     height: 120px;
 }
@@ -144,7 +144,6 @@ a {
 
 .main-details-wrapper {
     background-color: #F1F6F9; 
-    color: #120840;
     width: 100%;
 }
 
@@ -164,9 +163,10 @@ a {
 .copyright {
     text-align: center;
     padding-bottom: 3px;
+    color: white;
 }
 
-/* *Fuaculty and staff CSS */
+/* *Faculty and staff CSS */
 
 .content-wrapper {
     width: 95%;
@@ -232,6 +232,7 @@ h2.c {
 
 .detail-container {
     background-color: #120840; 
+    color: white;
     width: 65%;
     height: 200px;
     line-height: 50px;
@@ -283,6 +284,7 @@ h2.c {
     background-color: #6499E9; 
     width: 200px; 
     height: 200px;
+    color: white;
 }
 
 .vertical-text {
@@ -325,8 +327,6 @@ h2.c {
 }
 
 /* *About CSS */
-
-/* *INSERT CONTENT CSS */
 .block-container {
     width: 90%;
     background-color: #F8F0E5; 

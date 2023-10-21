@@ -1,0 +1,149 @@
+.autumn {
+    background-image: url('/Assets/Themed-backgrounds/Autumn/CC\ Entrance\ Background-Autumn.jpg');
+    color: #401a08;
+}
+
+.autumn #banner {
+    background-color: rgba(23, 5, 0, 0.8);
+}
+
+/* * HOMEPAGE CSS */
+.autumn .theme-nav {
+    color: #C63D2F;
+    border-color: #C63D2F;
+}
+
+.autumn .button {
+    border: 1px solid #402108;
+    color: #C63D2F;
+}
+
+.autumn .btn1:hover {
+    background-color: #120840;
+    color: white;
+}
+
+
+.autumn .btn2:hover {
+    background-color: #C63D2F   ;
+    color: white;
+}
+
+.autumn .btn3:hover {
+    background-color: #F4E869;
+    color: white;
+}
+
+.autumn .btn4:hover:hover {
+    background-color: #434242;
+    color: white;
+}
+
+.autumn .btn5:hover {
+    background-color: rgb(255, 54, 88);
+    color: white;
+}
+
+/* * FACULTY AND STAFF CSS */
+
+.autumn h1.a, .autumn h1.b, .autumn h1.c {
+    color: white;
+}
+
+.autumn h2.a, .autumn h2.b, .autumn h2.c {
+    color: #e2ceaf;
+}
+
+.autumn .detail-container {
+    background-color: #88291e;
+    color: white;
+}
+
+.autumn .image-placeholder {
+    background-color: #FF9B50;
+    color: white;
+}
+
+.autumn .block-header {
+    color: #C63D2F;
+}
+
+.autumn .block-content-container {
+    background-color: #a73629; 
+}
+
+.autumn .block-container {
+    color: #4e180e; 
+}
+
+.autumn .column-content {
+    color: #4e180e;
+}
+
+.autumn .apple {
+    background-image: url('/Assets/Themed-backgrounds/Autumn/Apple\ Lab-Autumn.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.autumn h1.room-text-header-left-white {
+    color: #a73629;
+}
+
+.autumn p.room-text-left-white {
+    color: #a73629;
+}
+
+.autumn h1.room-text-header-right-transparent {
+    color: white;
+}
+
+.autumn p.room-text-right-transparent {
+    color: white;
+}
+
+.autumn h1.room-text-header-right-white {
+    color: #a73629;
+}
+
+.autumn p.room-text-right-white {
+    color: #a73629;
+}
+
+.autumn h1.room-text-header-left-transparent {
+    color: white;
+}
+
+.autumn p.room-text-left-transparent {
+    color: white;
+}
+
+.autumn .CCLobby {
+    background-image: url('/Assets/Themed-backgrounds/Autumn/CC\ Lobby-Autumn.jpg');
+}
+
+.autumn .CCLab {
+    background-image: url('/Assets/Themed-backgrounds/Autumn/Computer\ Laboratories-Autumn.jpg');
+}
+
+.autumn .ATA {
+    background-image: url('/Assets/Themed-backgrounds/Autumn/ATA\ HALL-Autumn.jpg');
+}
+
+.autumn .UCS {
+    background-image: url('/Assets/Themed-backgrounds/Autumn/UCS\ Building-Autumn.jpg');
+}
+
+/* *CONTACT US CSS */
+
+.autumn .outer-contact-box-container {
+    background-color: #b4a69b;
+}
+
+.inner-contact-box-container {
+    background-color: #674839; 
+}
+
+/* !mash if you're reading this you're a goldfish */

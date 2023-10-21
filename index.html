@@ -4,8 +4,9 @@
     <title>SU College of Computer Studies</title>
     <link rel="icon" type="image/x-icon" href="./Assets/Logos/CCS Logo.png" />
     <link rel="stylesheet" href="./CSS/main.css" media="screen" />
+    <link rel="stylesheet" href="./CSS/autumn.css" media="screen" />
   </head>
-  <body>
+  <body id="theme" class="default">
     <!-- First Viewport -->
     <section class="page-layout">
       <!-- this will be the banner -->
@@ -130,11 +131,11 @@
             <h3>Select Your Theme</h3>
           </div>
           <div class="buttons-container">
-            <button type="button" id="default" class="button btn1"> Default </button>
-            <button type="button" id="autumn" class="button btn2"> Autumn </button>
-            <button type="button" id="summer" class="button btn3"> Summer </button>
-            <button type="button" id="achromatic" class="button btn4"> Achromatic </button>
-            <button type="button" id="cyberpunk" class="button btn5"> Cyber Punk </button>
+            <button type="button" class="button btn1" data-theme="default"> Default </button>
+            <button type="button" class="button btn2" data-theme="autumn"> Autumn </button>
+            <button type="button" class="button btn3" data-theme="summer"> Summer </button>
+            <button type="button" class="button btn4" data-theme="achromatic"> Achromatic </button>
+            <button type="button" class="button btn5" data-theme="cyberpunk"> Cyber Punk </button>
           </div>
         </div>
       </section>
@@ -229,5 +230,7 @@
         <h6> Developed by Joshua Briones &copy; 2023</h6>
       </div>
     </section>
+
+    <script src="./Javascript/main.js"></script>
   </body>
 </html>
