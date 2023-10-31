@@ -1,0 +1,50 @@
+.cyberpunk {
+    background-image: url('/Assets/Themed-backgrounds/cyberpunk/CC\ Entrance\ Background-cyberpunk.jpg');
+    color: #FFFB73;
+}
+
+.cyberpunk #banner {
+    background-color: rgba(177, 94, 255, 0.277);
+}
+
+/* * HOMEPAGE CSS */
+
+.cyberpunk .theme-nav, .cyberpunk .main-details-wrapper{
+    background-color: #3D30A2;
+}
+.cyberpunk .theme-nav {
+    color: #ffffff;
+    border-color: #FFFB73;
+}
+
+.cyberpunk .button {
+    border: 1px solid #FFFB73;
+    background-color: #3D30A2;
+    color: #ffffff;
+}
+
+.cyberpunk .btn1:hover {
+    background-color: #120840;
+    color: white;
+}
+
+
+.cyberpunk .btn2:hover {
+    background-color: #C63D2F   ;
+    color: white;
+}
+
+.cyberpunk .btn3:hover {
+    background-color: #F4E869;
+    color: white;
+}
+
+.cyberpunk .btn4:hover:hover {
+    background-color: #434242;
+    color: white;
+}
+
+.cyberpunk .btn5:hover {
+    background-color: rgb(255, 54, 88);
+    color: white;
+}

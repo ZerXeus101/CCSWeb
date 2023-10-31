@@ -1,4 +1,3 @@
-
 /* *INSERT ACTUAL CODE HERE */
 body {
     margin: 0;
@@ -13,6 +12,7 @@ body {
     background-size: cover;
     height: 100%;
     color: #120840;
+    transition: all 0.3s ease-in-out;
 }
 
 a {
@@ -465,10 +465,12 @@ p.room-text-left-white {
 
 h1.room-text-header-right-transparent {
     font-size: 30px;
+    color: white;
 }
 
 p.room-text-right-transparent {
     font-size: 20px;
+    color: white;
 }
 
 h1.room-text-header-right-white {
@@ -481,10 +483,12 @@ p.room-text-right-white {
 
 h1.room-text-header-left-transparent {
     font-size: 30px;
+    color: white;
 }
 
 p.room-text-left-transparent {
     font-size: 20px;
+    color: white;
 }
 
 
@@ -567,10 +571,3 @@ img.contact-icon {
 .email {
     color:#F1F6F9;
 }
-
-/* TODO:  Finish theme layouts */
-
-/* !Autumn: https://colorhunt.co/palette/ffbb5cff9b50e25e3ec63d2f */
-/* !Summer: https://colorhunt.co/palette/faf2d3f4e8693085c35cd2e6 */
-/* !Achromatic: just make random shit colors */
-/* !Autumn: https://colorhunt.co/palette/ffbb5cff9b50e25e3ec63d2f */

@@ -1,0 +1,50 @@
+.achromatic {
+    background-image: url('/Assets/Themed-backgrounds/Achromatic/CC\ Entrance\ Background-achromatic.jpg');
+    color: #ffffff;
+}
+
+.achromatic #banner {
+    background-color: rgba(32, 33, 33, 0.8);
+}
+
+/* * HOMEPAGE CSS */
+
+.achromatic .theme-nav, .achromatic .main-details-wrapper{
+    background-color: #2c2e2f;
+}
+.achromatic .theme-nav {
+    color: #ffffff;
+    border-color: #3085C3;
+}
+
+.achromatic .button {
+    border: 1px solid #ffffff;
+    background-color: #727474;
+    color: #ffffff;
+}
+
+.achromatic .btn1:hover {
+    background-color: #120840;
+    color: white;
+}
+
+
+.achromatic .btn2:hover {
+    background-color: #C63D2F   ;
+    color: white;
+}
+
+.achromatic .btn3:hover {
+    background-color: #F4E869;
+    color: white;
+}
+
+.achromatic .btn4:hover:hover {
+    background-color: #434242;
+    color: white;
+}
+
+.achromatic .btn5:hover {
+    background-color: rgb(255, 54, 88);
+    color: white;
+}

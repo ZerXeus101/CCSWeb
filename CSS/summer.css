@@ -1,0 +1,50 @@
+.summer {
+    background-image: url('/Assets/Themed-backgrounds/summer/CC\ Entrance\ Background-summer.jpg');
+    color: #FAF2D3;
+}
+
+.summer #banner {
+    background-color: rgba(0, 16, 23, 0.8);
+}
+
+/* * HOMEPAGE CSS */
+
+.summer .theme-nav, .summer .main-details-wrapper{
+    background-color: #3085C3;
+}
+.summer .theme-nav {
+    color: #FAF2D3;
+    border-color: #3085C3;
+}
+
+.summer .button {
+    border: 1px solid #F4E869;
+    background-color: #3085C3;
+    color: #FAF2D3;
+}
+
+.summer .btn1:hover {
+    background-color: #120840;
+    color: white;
+}
+
+
+.summer .btn2:hover {
+    background-color: #C63D2F   ;
+    color: white;
+}
+
+.summer .btn3:hover {
+    background-color: #F4E869;
+    color: white;
+}
+
+.summer .btn4:hover:hover {
+    background-color: #434242;
+    color: white;
+}
+
+.summer .btn5:hover {
+    background-color: rgb(255, 54, 88);
+    color: white;
+}
