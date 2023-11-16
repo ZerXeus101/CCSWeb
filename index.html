@@ -5,10 +5,20 @@
     <link rel="icon" type="image/x-icon" href="./Assets/Logos/CCS Logo.png" />
     <link rel="stylesheet" href="./CSS/main.css" media="screen" />
     <link rel="stylesheet" href="./CSS/autumn.css" media="screen" />
+    <link rel="stylesheet" href="./CSS/summer.css" media="screen" />
+    <link rel="stylesheet" href="./CSS/achromatic.css" media="screen" />
+    <link rel="stylesheet" href="./CSS/cyberpunk.css" media="screen" />
   </head>
   <body id="theme" class="default">
     <!-- First Viewport -->
     <section class="page-layout">
+      <div class="account-controls">
+        <div class="avatar-img">
+          <img src="/Assets/Icons/user.png" />
+        </div>
+        <div class="account-heading">Admin</div>
+        <button type="button" class="button btn1" onclick="logout()"> Logout </button>
+      </div>
       <!-- this will be the banner -->
       <section id="banner">
         <div class="logo-wrapper">
@@ -131,11 +141,11 @@
             <h3>Select Your Theme</h3>
           </div>
           <div class="buttons-container">
-            <button type="button" class="button btn1" data-theme="default"> Default </button>
-            <button type="button" class="button btn2" data-theme="autumn"> Autumn </button>
-            <button type="button" class="button btn3" data-theme="summer"> Summer </button>
-            <button type="button" class="button btn4" data-theme="achromatic"> Achromatic </button>
-            <button type="button" class="button btn5" data-theme="cyberpunk"> Cyber Punk </button>
+            <button type="button" class="button btn1" data-theme="default" onclick="defaultTheme()"> Default </button>
+            <button type="button" class="button btn2" data-theme="autumn" onclick="autumnTheme()"> Autumn </button>
+            <button type="button" class="button btn3" data-theme="summer" onclick="summerTheme()"> Summer </button>
+            <button type="button" class="button btn4" data-theme="achromatic" onclick="achromaticTheme()"> Achromatic </button>
+            <button type="button" class="button btn5" data-theme="cyberpunk" onclick="cyberpunkTheme()"> Cyber Punk </button>
           </div>
         </div>
       </section>
@@ -231,6 +241,6 @@
       </div>
     </section>
 
-    <script src="./Javascript/main.js"></script>
+    <script src="./Javascript/test.js"></script>
   </body>
 </html>

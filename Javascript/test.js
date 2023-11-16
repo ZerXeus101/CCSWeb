@@ -8,6 +8,10 @@ var currentTheme = 1;
     // *5. Cyber Punk
     
 console.log(currentTheme);
+
+function logout() {
+  window.location.href = "login.html";
+}
 function defaultTheme() {
   if (currentTheme == 2 || currentTheme == 3 || currentTheme == 4 || currentTheme == 5) {
     document.getElementById("theme").className = "default";

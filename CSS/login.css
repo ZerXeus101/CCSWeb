@@ -1,0 +1,171 @@
+/* Color Palletes: #190482; #7752FE, #8E8FFA, #C2D9FF*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/Assets/Backgrounds/UCS\ Building.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #C2D9FF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-wrapper {
+    transition: all 0.3s ease-in-out;
+    background-color: #190482;
+    width: 800px;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    border-radius: 30px 0 30px 0;
+    border: 2px solid #C2D9FF;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+form {
+    width: 400px;
+}
+
+.wrapper--margin {
+    margin: 20px 0;
+    display: flex;
+}
+
+.wrapper img {
+    margin: 0 20px 0 0;
+    
+}
+.button-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.attempt-counter {
+    display: none;
+    justify-content: center;
+    border: 1px solid #C2D9FF;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.form--field {
+    background: #C2D9FF;
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #8E8FFA;
+    outline: 0;
+    font-size: 1.3rem;
+    color: #190482;
+    padding: 7px    ;
+    border-radius: 5px 5px 0 0;
+    transition: border-color 0.2s;
+}
+
+.form--field:disabled {
+    background: transparent;
+}
+input::placeholder {
+    color: #7752FE;
+    padding-left: 10px;
+}
+
+input {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+form [type="button"] {
+  background-color: transparent;
+  border: 2px solid #C2D9FF;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  touch-action: manipulation;
+}
+
+form [type="button"]:disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+  background-color:#6d6790;
+}
+
+form [type="button"]:hover {
+  color: #190482;
+  background-color: #C2D9FF;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+form [type="button"]:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.icon {
+    width: 40px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-row: 1;
+    background: white;
+    border-radius: 30px 0 30px 0;
+    border: 5px solide white;
+}
+
+.main-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #190482;
+    margin: 10px;
+}
+
+.sub-heading {
+    font-size: 1rem;
+    color: #5b85cd;
+    font-weight: bold;
+}
+
+.form-container {
+    grid-row: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prompt-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.error-message {
+    display: none;
+    font-weight: bold;
+    color: red;
+    text-decoration-line: underline;
+}

@@ -20,6 +20,27 @@ a {
     text-decoration: none;
 }
 
+.account-controls {
+    position: absolute;
+    color: #03045e;
+    right: 0;
+    background-color: white;
+    padding: 15px;
+    top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.account-controls img {
+    width: 50px;
+}
+
+.account-heading {
+    font-weight: bold;
+}
+
 #banner{
     width: 100%;
     height: 300px;
