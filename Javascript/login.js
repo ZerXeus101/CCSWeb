@@ -161,6 +161,7 @@ function handleErrorForStudent (userLength, passLength, attempt, username, passw
         document.getElementById("error1").style.display = "none";
         document.getElementById("error2").style.display = "none";
         document.getElementById("error3").style.display = "none";
+        document.getElementById("error4").style.display = "none";
         document.getElementById("error5").style.display = "flex";
     }
 }
@@ -204,6 +205,8 @@ function handleLogInForFaculty(username, password) {
         document.getElementById("error1").style.display = "none";
         document.getElementById("error2").style.display = "none";
         document.getElementById("error3").style.display = "none";
+        document.getElementById("error4").style.display = "none";
+        document.getElementById("error5").style.display = "none";
         document.getElementById("error6").style.display = "none";
         document.getElementById("count").style.display = "none";
         alert("Welcome Joshua Briones! You have successfully logged in!");
