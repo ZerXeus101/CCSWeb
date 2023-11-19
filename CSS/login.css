@@ -168,4 +168,5 @@ form [type="button"]:active {
     font-weight: bold;
     color: red;
     text-decoration-line: underline;
+    text-align: justify;
 }
